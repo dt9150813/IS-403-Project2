@@ -10,8 +10,10 @@ namespace IS_403_Project2.Models
     public class MissionQuestions
     {
         public int missionQuestionID { get; set; }
+        [ForeignKey("Mission")]
         public int MissionID { get; set; }
-        public int UserID { get; set; }
+        public virtual Mission Mission { get; set; }
+        public int? UserID { get; set; }
         public string question { get; set; }
         public string answer { get; set; }
     }

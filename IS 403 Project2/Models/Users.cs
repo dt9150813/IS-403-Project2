@@ -6,7 +6,7 @@ using System.Web;
 
 namespace IS_403_Project2.Models
 {
-    [Table("Users")]
+    //[Table("Users")]
     public class Users
     {
         public int UserID { get; set; }
