@@ -5,7 +5,7 @@ using System.Web;
 
 namespace IS_403_Project2.Models
 {
-    public class MissionInformation
+    public class Missions
     {
         public int MissionID { get; set; }
         public string missionName { get; set; }
