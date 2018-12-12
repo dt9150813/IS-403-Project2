@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using IS_403_Project2.Models;
+using IS_403_Project2.DAL;
 
 namespace IS_403_Project2
 {
