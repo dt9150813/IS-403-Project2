@@ -8,7 +8,7 @@ namespace IS_403_Project2.Models
 {
     //[Table("Users")]
     public class Users
-    {
+    { 
         public int UserID { get; set; }
         public string userEmail { get; set; }
         public string password { get; set; }
